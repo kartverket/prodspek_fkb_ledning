@@ -122,7 +122,7 @@ image::figurer/bardun_minstestorrelse.png[link=figurer/bardun_minstestorrelse.pn
 |registreringsversjon
 | «CodeList»  https://register.geonorge.no/sosi-kodelister/fkb/generell/5.0/registreringsversjon[Registreringsversjon, window = _blank]
 |..REGISTRERINGSVERSJON
-|[0..1]
+|[1..1]
  
 |informasjon
 |CharacterString
@@ -314,7 +314,7 @@ image::figurer\flymarkør.png[link=figurer\flymarkør.png, Alt="Flymarkører reg
 |registreringsversjon
 | «CodeList»  https://register.geonorge.no/sosi-kodelister/fkb/generell/5.0/registreringsversjon[Registreringsversjon, window = _blank]
 |..REGISTRERINGSVERSJON
-|[0..1]
+|[1..1]
  
 |informasjon
 |CharacterString
@@ -516,7 +516,7 @@ image::figurer\kabelkanal3_hoyde.png[link=figurer\kabelkanal3_hoyde.png, Alt="Il
 |registreringsversjon
 | «CodeList»  https://register.geonorge.no/sosi-kodelister/fkb/generell/5.0/registreringsversjon[Registreringsversjon, window = _blank]
 |..REGISTRERINGSVERSJON
-|[0..1]
+|[1..1]
  
 |informasjon
 |CharacterString
@@ -719,7 +719,7 @@ image::figurer\kum.png[link=figurer\kum.png, Alt="Ytterkant topp kumkonstruksjon
 |registreringsversjon
 | «CodeList»  https://register.geonorge.no/sosi-kodelister/fkb/generell/5.0/registreringsversjon[Registreringsversjon, window = _blank]
 |..REGISTRERINGSVERSJON
-|[0..1]
+|[1..1]
  
 |informasjon
 |CharacterString
@@ -911,7 +911,7 @@ image::figurer\kumlokk1_baliser.png[link=figurer\kumlokk1_baliser.png, Alt="Illu
 |registreringsversjon
 | «CodeList»  https://register.geonorge.no/sosi-kodelister/fkb/generell/5.0/registreringsversjon[Registreringsversjon, window = _blank]
 |..REGISTRERINGSVERSJON
-|[0..1]
+|[1..1]
  
 |informasjon
 |CharacterString
@@ -1151,7 +1151,7 @@ Det er ogs&#229; mulig &#229; registrere Lysarmatur for lyspunkt i mast.
 |registreringsversjon
 | «CodeList»  https://register.geonorge.no/sosi-kodelister/fkb/generell/5.0/registreringsversjon[Registreringsversjon, window = _blank]
 |..REGISTRERINGSVERSJON
-|[0..1]
+|[1..1]
  
 |informasjon
 |CharacterString
@@ -1238,10 +1238,6 @@ Det er ogs&#229; mulig &#229; registrere Lysarmatur for lyspunkt i mast.
 |..BELYSNINGSPLASSERING
 |[1..1]
  
-|iMast
-|«FeatureType» Mast
-|..IMAST
-|[0..1]
 |===
 [discrete]
 ==== Presiseringer til beskrivelsen av kodelistekoder
@@ -1393,7 +1389,7 @@ image::figurer\mast_vertikalAvstand_linjebredde.png[link=figurer\mast_vertikalAv
 |registreringsversjon
 | «CodeList»  https://register.geonorge.no/sosi-kodelister/fkb/generell/5.0/registreringsversjon[Registreringsversjon, window = _blank]
 |..REGISTRERINGSVERSJON
-|[0..1]
+|[1..1]
  
 |informasjon
 |CharacterString
@@ -1698,7 +1694,7 @@ image::figurer\masteomriss2.png[link=figurer\masteomriss2.png, Alt="For mast som
 |registreringsversjon
 | «CodeList»  https://register.geonorge.no/sosi-kodelister/fkb/generell/5.0/registreringsversjon[Registreringsversjon, window = _blank]
 |..REGISTRERINGSVERSJON
-|[0..1]
+|[1..1]
  
 |informasjon
 |CharacterString
@@ -1903,7 +1899,7 @@ Kan avgrenses av Nettverkstasjonsomriss. Omriss (Nettverkstasjonsomriss) skal om
 |registreringsversjon
 | «CodeList»  https://register.geonorge.no/sosi-kodelister/fkb/generell/5.0/registreringsversjon[Registreringsversjon, window = _blank]
 |..REGISTRERINGSVERSJON
-|[0..1]
+|[1..1]
  
 |informasjon
 |CharacterString
@@ -2128,7 +2124,7 @@ image::figurer\nettverkstasjonomriss.png[link=figurer\nettverkstasjonomriss.png,
 |registreringsversjon
 | «CodeList»  https://register.geonorge.no/sosi-kodelister/fkb/generell/5.0/registreringsversjon[Registreringsversjon, window = _blank]
 |..REGISTRERINGSVERSJON
-|[0..1]
+|[1..1]
  
 |informasjon
 |CharacterString
@@ -2322,7 +2318,7 @@ image::figurer\skap.png[link=figurer\skap.png, Alt="Eksempel på registrering av
 |registreringsversjon
 | «CodeList»  https://register.geonorge.no/sosi-kodelister/fkb/generell/5.0/registreringsversjon[Registreringsversjon, window = _blank]
 |..REGISTRERINGSVERSJON
-|[0..1]
+|[1..1]
  
 |informasjon
 |CharacterString
@@ -2531,7 +2527,7 @@ image::figurer\trase_forgrening_fjorspenn.png[link=figurer\trase_forgrening_fjor
 |registreringsversjon
 | «CodeList»  https://register.geonorge.no/sosi-kodelister/fkb/generell/5.0/registreringsversjon[Registreringsversjon, window = _blank]
 |..REGISTRERINGSVERSJON
-|[0..1]
+|[1..1]
  
 |informasjon
 |CharacterString
@@ -2611,41 +2607,6 @@ image::figurer\trase_forgrening_fjorspenn.png[link=figurer\trase_forgrening_fjor
 |senterlinje
 |GM_Curve
 |.KURVE
-|[1..1]
- 
-|antallLaserPunkt
-|Integer
-|..ANTALL_LASERPUNKT
-|[0..1]
- 
-|maksVertikalAvstand
-|«dataType» VertikalAvstandLedning
-|..MAKS_VERTIKALUTSTREKNING
-|[0..1]
- 
-|maksVertikalAvstand.vertikalAvstandPosisjon
-|GM_Point
-|.NØHKOOR
-|[1..1]
- 
-|maksVertikalAvstand.vertikalAvstand
-|«dataType» Real
-|...VERTIKALAVSTAND
-|[1..1]
- 
-|minVertikalAvstand
-|«dataType» VertikalAvstandLedning
-|..MIN_VERTIKALUTSTREKNING
-|[0..1]
- 
-|minVertikalAvstand.vertikalAvstandPosisjon
-|GM_Point
-|.NØHKOOR
-|[1..1]
- 
-|minVertikalAvstand.vertikalAvstand
-|«dataType» Real
-|...VERTIKALAVSTAND
 |[1..1]
  
 |trasenavn
@@ -2817,7 +2778,7 @@ image::figurer\vindturbin2.png[link=figurer\vindturbin2.png, Alt="Illustrasjon s
 |registreringsversjon
 | «CodeList»  https://register.geonorge.no/sosi-kodelister/fkb/generell/5.0/registreringsversjon[Registreringsversjon, window = _blank]
 |..REGISTRERINGSVERSJON
-|[0..1]
+|[1..1]
  
 |informasjon
 |CharacterString
@@ -3028,7 +2989,7 @@ image::figurer\vindturbinomriss.png[link=figurer\vindturbinomriss.png, Alt="Ekse
 |registreringsversjon
 | «CodeList»  https://register.geonorge.no/sosi-kodelister/fkb/generell/5.0/registreringsversjon[Registreringsversjon, window = _blank]
 |..REGISTRERINGSVERSJON
-|[0..1]
+|[1..1]
  
 |informasjon
 |CharacterString
@@ -3224,7 +3185,7 @@ image::figurer\åk2_halvåk.png[link=figurer\åk2_halvåk.png, Alt="Illustrasjon
 |registreringsversjon
 | «CodeList»  https://register.geonorge.no/sosi-kodelister/fkb/generell/5.0/registreringsversjon[Registreringsversjon, window = _blank]
 |..REGISTRERINGSVERSJON
-|[0..1]
+|[1..1]
  
 |informasjon
 |CharacterString

@@ -1500,13 +1500,13 @@ image::figurer\mast_vertikalAvstand_linjebredde.png[link=figurer\mast_vertikalAv
 |«FeatureType» Bardun
 |..BARDUN
 |[0..*]
-|harArmatur
-|«FeatureType» Lysarmatur
-|..HARARMATUR
-|[0..*]
 |omriss
 |«FeatureType» Masteomriss
 |..OMRISS
+|[0..*]
+|harArmatur
+|«FeatureType» Lysarmatur
+|..HARARMATUR
 |[0..*]
 |===
 [discrete]
@@ -2436,7 +2436,7 @@ Hvert punkt i trasen skal ha lik koordinat som objekttype Mast, Nettverkstasjon 
 * *h&#248;gspenttraseer*
 * *andre traseer (luftspenn) lengre enn 100 meter*
 
-*Lavspent og ekom traseer skal ikke fotogrammetrisk registreres med mindre dette avtales s&#230;rskilt (er opsjonelt).*
+*&#216;vrige lavspent- og ekom-traseer skal ikke registreres fotogrammetrisk med mindre dette avtales s&#230;rskilt (er opsjonelt).*
 
 Der hvor opsjonen for konstruksjon av lavspent og ekom er utl&#248;st skal disse traseene konstrueres helt frem til abonnent, typisk husvegg. For traseer som stopper i en bygning eller i en annen st&#248;rre konstruksjon skal det ikke konstrueres mast i dette trase endepunktet.
 
@@ -3096,6 +3096,16 @@ Ogs&#229; halv&#229;k (konstruksjon festet i kun en mast) skal registreres. Mast
  
  
 '''
+.Halvåk sett fra bakken
+image::figurer\halvaak_bakke.png[link=figurer\halvaak_bakke.png, Alt="Halvåk sett fra bakken"]
+ 
+ 
+'''
+.Halvåk sett fra luften
+image::figurer\halvaak_ovenfra.png[link=figurer\halvaak_ovenfra.png, Alt="Halvåk sett fra luften"]
+ 
+ 
+'''
 .Eksempel på registrering av Åk. Den enkelte mast registreres i tillegg.
 image::figurer\åk1.png[link=figurer\åk1.png, Alt="Eksempel på registrering av Åk. Den enkelte mast registreres i tillegg."]
  
@@ -3269,3 +3279,4 @@ image::figurer\åk2_halvåk.png[link=figurer\åk2_halvåk.png, Alt="Illustrasjon
  
 |===
 // End of Registreringsinstruks UML-model
+

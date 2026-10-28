@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="generator" content="Asciidoctor 2.0.20">
+<meta name="generator" content="Asciidoctor 2.0.26">
 <meta name="author" content="Geovekst">
 <title>Registreringsinstruks: Fotogrammetrisk FKB-Ledning</title>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,400,400italic,600,600italic%7CNoto+Serif:400,400italic,700,700italic%7CDroid+Sans+Mono:400,700">
@@ -117,7 +117,6 @@ h1 strong,h2 strong,h3 strong,#toctitle strong,.sidebarblock>.content>.title str
 :not(pre):not([class^=L])>code{font-size:.9375em;font-style:normal!important;letter-spacing:0;padding:.1em .5ex;word-spacing:-.15em;background:#f7f7f8;border-radius:4px;line-height:1.45;text-rendering:optimizeSpeed}
 pre{color:rgba(0,0,0,.9);font-family:"Droid Sans Mono","DejaVu Sans Mono",monospace;line-height:1.45;text-rendering:optimizeSpeed}
 pre code,pre pre{color:inherit;font-size:inherit;line-height:inherit}
-pre>code{display:block}
 pre.nowrap,pre.nowrap pre{white-space:pre;word-wrap:normal}
 em em{font-style:normal}
 strong strong{font-weight:400}
@@ -141,7 +140,7 @@ p a>code:hover{color:rgba(0,0,0,.9)}
 #content::before{content:none}
 #header>h1:first-child{color:rgba(0,0,0,.85);margin-top:2.25rem;margin-bottom:0}
 #header>h1:first-child+#toc{margin-top:8px;border-top:1px solid #dddddf}
-#header>h1:only-child,body.toc2 #header>h1:nth-last-child(2){border-bottom:1px solid #dddddf;padding-bottom:8px}
+#header>h1:only-child{border-bottom:1px solid #dddddf;padding-bottom:8px}
 #header .details{border-bottom:1px solid #dddddf;line-height:1.45;padding-top:.25em;padding-bottom:.25em;padding-left:.25em;color:rgba(0,0,0,.6);display:flex;flex-flow:row wrap}
 #header .details span:first-child{margin-left:-.125em}
 #header .details span.email a{color:rgba(0,0,0,.85)}
@@ -163,6 +162,7 @@ p a>code:hover{color:rgba(0,0,0,.9)}
 #toctitle{color:#7a2518;font-size:1.2em}
 @media screen and (min-width:768px){#toctitle{font-size:1.375em}
 body.toc2{padding-left:15em;padding-right:0}
+body.toc2 #header>h1:nth-last-child(2){border-bottom:1px solid #dddddf;padding-bottom:8px}
 #toc.toc2{margin-top:0!important;background:#f8f8f7;position:fixed;width:15em;left:0;top:0;border-right:1px solid #e7e7e9;border-top-width:0!important;border-bottom-width:0!important;z-index:1000;padding:1.25em 1em;height:100%;overflow:auto}
 #toc.toc2 #toctitle{margin-top:0;margin-bottom:.8rem;font-size:1.2em}
 #toc.toc2>ul{font-size:.9em;margin-bottom:0}
@@ -219,6 +219,7 @@ table.tableblock.fit-content>caption.title{white-space:nowrap;width:0}
 .literalblock pre,.listingblock>.content>pre:not(.highlight),.listingblock>.content>pre[class=highlight],.listingblock>.content>pre[class^="highlight "]{background:#f7f7f8}
 .literalblock.output pre{color:#f7f7f8;background:rgba(0,0,0,.9)}
 .listingblock>.content{position:relative}
+.listingblock pre>code{display:block}
 .listingblock code[data-lang]::before{display:none;content:attr(data-lang);position:absolute;font-size:.75em;top:.425rem;right:.5rem;line-height:1;text-transform:uppercase;color:inherit;opacity:.5}
 .listingblock:hover code[data-lang]::before{display:block}
 .listingblock.terminal pre .command::before{content:attr(data-prompt);padding-right:.5em;color:inherit;opacity:.5}
@@ -328,7 +329,7 @@ a.image{text-decoration:none;display:inline-block}
 a.image object{pointer-events:none}
 sup.footnote,sup.footnoteref{font-size:.875em;position:static;vertical-align:super}
 sup.footnote a,sup.footnoteref a{text-decoration:none}
-sup.footnote a:active,sup.footnoteref a:active{text-decoration:underline}
+sup.footnote a:active,sup.footnoteref a:active,#footnotes .footnote a:first-of-type:active{text-decoration:underline}
 #footnotes{padding-top:.75em;padding-bottom:.75em;margin-bottom:.625em}
 #footnotes hr{width:20%;min-width:6.25em;margin:-.25em 0 .75em;border-width:1px 0 0}
 #footnotes .footnote{padding:0 .375em 0 .225em;line-height:1.3334;font-size:.875em;margin-left:1.2em;margin-bottom:.2em}
@@ -439,7 +440,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <h1>Registreringsinstruks: Fotogrammetrisk FKB-Ledning</h1>
 <div class="details">
 <span id="author" class="author">Geovekst</span><br>
-<span id="revdate">5.1 - 2026-01-01</span>
+<span id="revdate">5.1 - 2027-01-01</span>
 </div>
 <div id="toc" class="toc2">
 <div id="toctitle">Innholdsfortegnelse</div>
@@ -449,8 +450,9 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <li><a href="#_innledning">1.1. Innledning</a></li>
 <li><a href="#_endringslogg">1.2. Endringslogg</a>
 <ul class="sectlevel3">
-<li><a href="#_endringer_fra_versjon_5_1_2025_01_01_til_versjon_5_1_2026_01_01">1.2.1. Endringer fra versjon 5.1 2025-01-01 til versjon 5.1 2026-01-01</a></li>
-<li><a href="#_endringer_fra_versjon_5_0_2024_01_01_til_versjon_5_1_2025_01_01">1.2.2. Endringer fra versjon 5.0 2024-01-01 til versjon 5.1 2025-01-01</a></li>
+<li><a href="#_endringer_fra_versjon_5_1_2026_01_01_til_versjon_5_1_2027_01_01">1.2.1. Endringer fra versjon 5.1 2026-01-01 til versjon 5.1 2027-01-01</a></li>
+<li><a href="#_endringer_fra_versjon_5_1_2025_01_01_til_versjon_5_1_2026_01_01">1.2.2. Endringer fra versjon 5.1 2025-01-01 til versjon 5.1 2026-01-01</a></li>
+<li><a href="#_endringer_fra_versjon_5_0_2024_01_01_til_versjon_5_1_2025_01_01">1.2.3. Endringer fra versjon 5.0 2024-01-01 til versjon 5.1 2025-01-01</a></li>
 </ul>
 </li>
 </ul>
@@ -509,10 +511,10 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <div class="sidebarblock">
 <div class="content">
 <div class="paragraph">
-<p><strong>Publisert</strong>: 2025-12-22<br>
-<strong>Nyeste gyldige versjon av dokumentet finnes på</strong>: <a href="https://sosi.geonorge.no/registreringsinstrukser/FKB-Ledning/5.1/Fotogrammetrisk_2026-01-01" class="bare">https://sosi.geonorge.no/registreringsinstrukser/FKB-Ledning/5.1/Fotogrammetrisk_2026-01-01</a><br>
-<strong>Denne versjonen finnes på</strong>: <a href="https://sosi.geonorge.no/registreringsinstrukser/FKB-Ledning/5.1/Fotogrammetrisk_2026-01-01" class="bare">https://sosi.geonorge.no/registreringsinstrukser/FKB-Ledning/5.1/Fotogrammetrisk_2026-01-01</a><br>
-<strong>Denne versjonen erstatter</strong>: <a href="https://sosi.geonorge.no/registreringsinstrukser/FKB-Ledning/5.1/Fotogrammetrisk_2025-01-01" class="bare">https://sosi.geonorge.no/registreringsinstrukser/FKB-Ledning/5.1/Fotogrammetrisk_2025-01-01</a><br>
+<p><strong>Publisert</strong>: 2027-01-05<br>
+<strong>Nyeste gyldige versjon av dokumentet finnes på</strong>: <a href="https://sosi.geonorge.no/registreringsinstrukser/FKB-Ledning/5.1/Fotogrammetrisk_2027-01-01" class="bare">https://sosi.geonorge.no/registreringsinstrukser/FKB-Ledning/5.1/Fotogrammetrisk_2027-01-01</a><br>
+<strong>Denne versjonen finnes på</strong>: <a href="https://sosi.geonorge.no/registreringsinstrukser/FKB-Ledning/5.1/Fotogrammetrisk_2027-01-01" class="bare">https://sosi.geonorge.no/registreringsinstrukser/FKB-Ledning/5.1/Fotogrammetrisk_2027-01-01</a><br>
+<strong>Denne versjonen erstatter</strong>: <a href="https://sosi.geonorge.no/registreringsinstrukser/FKB-Ledning/5.1/Fotogrammetrisk_2026-01-01" class="bare">https://sosi.geonorge.no/registreringsinstrukser/FKB-Ledning/5.1/Fotogrammetrisk_2026-01-01</a><br>
 <strong>Tilhørende produktspesifikasjon finnes på</strong>: <a href="https://sosi.geonorge.no/produktspesifikasjoner/FKB-Ledning/5.1" class="bare">https://sosi.geonorge.no/produktspesifikasjoner/FKB-Ledning/5.1</a><br>
 - <a href="https://sosi.geonorge.no/uml-modeller/sosi-del-3-produktspesifikasjoner/FKB-Ledning/5.1">HTML-visning av UML-modellen</a><br></p>
 </div>
@@ -544,7 +546,20 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 <div class="sect2">
 <h3 id="_endringslogg">1.2. Endringslogg</h3>
 <div class="sect3">
-<h4 id="_endringer_fra_versjon_5_1_2025_01_01_til_versjon_5_1_2026_01_01">1.2.1. Endringer fra versjon 5.1 2025-01-01 til versjon 5.1 2026-01-01</h4>
+<h4 id="_endringer_fra_versjon_5_1_2026_01_01_til_versjon_5_1_2027_01_01">1.2.1. Endringer fra versjon 5.1 2026-01-01 til versjon 5.1 2027-01-01</h4>
+<div class="ulist">
+<ul>
+<li>
+<p>I kapittel 3.12 Objekttype Trase er under tilleggsinformasjon for fotogrammetrisk registrering setning om registrering av øvrige lavspent- og ekom-traseer endret.</p>
+</li>
+<li>
+<p>I kapittel 3.15 Objekttype Åk er det lagt til to nye figurer som viser registrering av halvåk.</p>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect3">
+<h4 id="_endringer_fra_versjon_5_1_2025_01_01_til_versjon_5_1_2026_01_01">1.2.2. Endringer fra versjon 5.1 2025-01-01 til versjon 5.1 2026-01-01</h4>
 <div class="ulist">
 <ul>
 <li>
@@ -572,7 +587,7 @@ body.book #toc,body.book #preamble,body.book h1.sect0,body.book .sect1>h2{page-b
 </div>
 </div>
 <div class="sect3">
-<h4 id="_endringer_fra_versjon_5_0_2024_01_01_til_versjon_5_1_2025_01_01">1.2.2. Endringer fra versjon 5.0 2024-01-01 til versjon 5.1 2025-01-01</h4>
+<h4 id="_endringer_fra_versjon_5_0_2024_01_01_til_versjon_5_1_2025_01_01">1.2.3. Endringer fra versjon 5.0 2024-01-01 til versjon 5.1 2025-01-01</h4>
 <div class="ulist">
 <ul>
 <li>
@@ -2482,15 +2497,15 @@ Den p&#229;krevde egenskapen <em>konstruksjon</em> benyttes for &#229; angi hvil
 <td class="tableblock halign-left valign-top"><p class="tableblock">[0..*]</p></td>
 </tr>
 <tr>
-<td class="tableblock halign-left valign-top"><p class="tableblock">harArmatur</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">«FeatureType» Lysarmatur</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">..HARARMATUR</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">[0..*]</p></td>
-</tr>
-<tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">omriss</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">«FeatureType» Masteomriss</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">..OMRISS</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">[0..*]</p></td>
+</tr>
+<tr>
+<td class="tableblock halign-left valign-top"><p class="tableblock">harArmatur</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">«FeatureType» Lysarmatur</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">..HARARMATUR</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">[0..*]</p></td>
 </tr>
 </tbody>
@@ -3639,7 +3654,7 @@ Hvert punkt i trasen skal ha lik koordinat som objekttype Mast, Nettverkstasjon 
 </ul>
 </div>
 <div class="paragraph">
-<p><strong>Lavspent og ekom traseer skal ikke fotogrammetrisk registreres med mindre dette avtales s&#230;rskilt (er opsjonelt).</strong></p>
+<p><strong>&#216;vrige lavspent- og ekom-traseer skal ikke registreres fotogrammetrisk med mindre dette avtales s&#230;rskilt (er opsjonelt).</strong></p>
 </div>
 <div class="paragraph">
 <p>Der hvor opsjonen for konstruksjon av lavspent og ekom er utl&#248;st skal disse traseene konstrueres helt frem til abonnent, typisk husvegg. For traseer som stopper i en bygning eller i en annen st&#248;rre konstruksjon skal det ikke konstrueres mast i dette trase endepunktet.</p>
@@ -4454,16 +4469,30 @@ Hvert punkt i trasen skal ha lik koordinat som objekttype Mast, Nettverkstasjon 
 <hr>
 <div class="imageblock">
 <div class="content">
+<a class="image" href="figurer\halvaak_bakke.png"><img src="figurer/halvaak_bakke.png" alt="halvaak bakke"></a>
+</div>
+<div class="title">Figur 50. Halvåk sett fra bakken</div>
+</div>
+<hr>
+<div class="imageblock">
+<div class="content">
+<a class="image" href="figurer\halvaak_ovenfra.png"><img src="figurer/halvaak_ovenfra.png" alt="halvaak ovenfra"></a>
+</div>
+<div class="title">Figur 51. Halvåk sett fra luften</div>
+</div>
+<hr>
+<div class="imageblock">
+<div class="content">
 <a class="image" href="figurer\åk1.png"><img src="figurer/åk1.png" alt="åk1"></a>
 </div>
-<div class="title">Figur 50. Eksempel på registrering av Åk. Den enkelte mast registreres i tillegg.</div>
+<div class="title">Figur 52. Eksempel på registrering av Åk. Den enkelte mast registreres i tillegg.</div>
 </div>
 <hr>
 <div class="imageblock">
 <div class="content">
 <a class="image" href="figurer\åk2_halvåk.png"><img src="figurer/åk2_halvåk.png" alt="åk2 halvåk"></a>
 </div>
-<div class="title">Figur 51. Illustrasjon av registrering for halvåk. Grønn linje representerer Åk, rød punkt Mast.</div>
+<div class="title">Figur 53. Illustrasjon av registrering for halvåk. Grønn linje representerer Åk, rød punkt Mast.</div>
 </div>
 <h4 id="_føringer_15" class="discrete">Føringer</h4>
 <table class="tableblock frame-all grid-all stretch">
@@ -4937,7 +4966,7 @@ Hvert punkt i trasen skal ha lik koordinat som objekttype Mast, Nettverkstasjon 
 <tr>
 <td class="tableblock halign-left valign-top"><p class="tableblock">Kabelkanal</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">2</p></td>
-<td class="tableblock halign-left valign-top"><p class="tableblock">2II</p></td>
+<td class="tableblock halign-left valign-top"><p class="tableblock">2</p></td>
 <td class="tableblock halign-left valign-top"><p class="tableblock">2</p></td>
 </tr>
 <tr>
@@ -5035,7 +5064,7 @@ Hvert punkt i trasen skal ha lik koordinat som objekttype Mast, Nettverkstasjon 
 <div class="content">
 <img src="figurer/tilleggsbeskrivelse_høgspent1.png" alt="tilleggsbeskrivelse høgspent1">
 </div>
-<div class="title">Figur 52. Eksempel på hvordan master med flere linje/ledere forenkles i FKB.</div>
+<div class="title">Figur 54. Eksempel på hvordan master med flere linje/ledere forenkles i FKB.</div>
 </div>
 <div class="paragraph">
 <p>I eksemplet til venstre i figuren over registreres topp mast (rødt punkt) og senter ledningstrase fra topp mast videre til neste topp mast (blå strek). I enkelte tilfeller kan man ha registrert både topp og fot samme mast. Begge registreringene skal da beholdes, men skilles med egenskapen ledning høydereferanse.</p>
@@ -5047,7 +5076,7 @@ Hvert punkt i trasen skal ha lik koordinat som objekttype Mast, Nettverkstasjon 
 <div class="content">
 <img src="figurer/tilleggsbeskrivelse_høgspent2.png" alt="tilleggsbeskrivelse høgspent2">
 </div>
-<div class="title">Figur 53. Eksempel på hvordan en fagverksmast med flere ledninger forenkles i FKB. I dette tilfellet registreres senter topp mast, omriss av fundament og senter ledningstrase. Ved at man registrerer høyde på mast og trase, kan man lage en forenklet 3D-modell av masten.</div>
+<div class="title">Figur 55. Eksempel på hvordan en fagverksmast med flere ledninger forenkles i FKB. I dette tilfellet registreres senter topp mast, omriss av fundament og senter ledningstrase. Ved at man registrerer høyde på mast og trase, kan man lage en forenklet 3D-modell av masten.</div>
 </div>
 <div class="sect4">
 <h5 id="_eksempel_på_registering_av_mast">Eksempel på registering av Mast</h5>
@@ -5055,7 +5084,7 @@ Hvert punkt i trasen skal ha lik koordinat som objekttype Mast, Nettverkstasjon 
 <div class="content">
 <img src="figurer/tilleggsbeskrivelse_høgspent3.png" alt="tilleggsbeskrivelse høgspent3">
 </div>
-<div class="title">Figur 54. Senterpunkt for hver enkelt mast i høgspentlinjer. Høyden registreres som topp mast. (Kilde: Mastefiguren er hentet fra NVE)</div>
+<div class="title">Figur 56. Senterpunkt for hver enkelt mast i høgspentlinjer. Høyden registreres som topp mast. (Kilde: Mastefiguren er hentet fra NVE)</div>
 </div>
 </div>
 <div class="sect4">
@@ -5064,7 +5093,7 @@ Hvert punkt i trasen skal ha lik koordinat som objekttype Mast, Nettverkstasjon 
 <div class="content">
 <img src="figurer/tilleggsbeskrivelse_høgspent4.png" alt="tilleggsbeskrivelse høgspent4">
 </div>
-<div class="title">Figur 55. Trase for høgspent. I høgspenttraseen skal det for hver mast settes inn et punkt i traseen (kurven) med lik koordinat som masten. Dette for å knytte masten til høgspenttraseen. (Kilde: Mastefiguren er hentet fra NVE)</div>
+<div class="title">Figur 57. Trase for høgspent. I høgspenttraseen skal det for hver mast settes inn et punkt i traseen (kurven) med lik koordinat som masten. Dette for å knytte masten til høgspenttraseen. (Kilde: Mastefiguren er hentet fra NVE)</div>
 </div>
 </div>
 <div class="sect4">
@@ -5073,7 +5102,7 @@ Hvert punkt i trasen skal ha lik koordinat som objekttype Mast, Nettverkstasjon 
 <div class="content">
 <img src="figurer/tilleggsbeskrivelse_høgspent5.png" alt="tilleggsbeskrivelse høgspent5">
 </div>
-<div class="title">Figur 56. I de tilfellene masten er representert med to eller flere ”fundamenteringspunkt” skal dette registreres med egen geometri. (Kilde: Mastefiguren er hentet fra NVE)</div>
+<div class="title">Figur 58. I de tilfellene masten er representert med to eller flere ”fundamenteringspunkt” skal dette registreres med egen geometri. (Kilde: Mastefiguren er hentet fra NVE)</div>
 </div>
 </div>
 <div class="sect4">
@@ -5082,7 +5111,7 @@ Hvert punkt i trasen skal ha lik koordinat som objekttype Mast, Nettverkstasjon 
 <div class="content">
 <img src="figurer/tilleggsbeskrivelse_høgspent6.png" alt="tilleggsbeskrivelse høgspent6">
 </div>
-<div class="title">Figur 57. Samlet oversikt over registrerte objekter for høgspenttraseer (Kilde: Mastefiguren er hentet fra NVE)</div>
+<div class="title">Figur 59. Samlet oversikt over registrerte objekter for høgspenttraseer (Kilde: Mastefiguren er hentet fra NVE)</div>
 </div>
 </div>
 </div>
@@ -5101,7 +5130,7 @@ Hvert punkt i trasen skal ha lik koordinat som objekttype Mast, Nettverkstasjon 
 <div class="content">
 <img src="figurer/tilleggsbeskrivelse_lavspent.png" alt="tilleggsbeskrivelse lavspent">
 </div>
-<div class="title">Figur 58. Eksempel på registrering av lavspentnett. I dette tilfellet er både fot og topp mast registrert, men det er ikke påkrevet å registrere både fot og topp mast.</div>
+<div class="title">Figur 60. Eksempel på registrering av lavspentnett. I dette tilfellet er både fot og topp mast registrert, men det er ikke påkrevet å registrere både fot og topp mast.</div>
 </div>
 </div>
 </div>
@@ -5130,19 +5159,19 @@ Hvert punkt i trasen skal ha lik koordinat som objekttype Mast, Nettverkstasjon 
 <div class="content">
 <img src="figurer/tilleggsbeskrivelse_traseknutepunkt1.png" alt="tilleggsbeskrivelse traseknutepunkt1">
 </div>
-<div class="title">Figur 59. Eksempel på registrering av maste(r) og traseknutepunkt</div>
+<div class="title">Figur 61. Eksempel på registrering av maste(r) og traseknutepunkt</div>
 </div>
 <div class="imageblock">
 <div class="content">
 <img src="figurer/tilleggsbeskrivelse_traseknutepunkt2.png" alt="tilleggsbeskrivelse traseknutepunkt2">
 </div>
-<div class="title">Figur 60. Traseknutepunkt som skal registreres som en mast (mastepunkt = grønn ring)</div>
+<div class="title">Figur 62. Traseknutepunkt som skal registreres som en mast (mastepunkt = grønn ring)</div>
 </div>
 <div class="imageblock">
 <div class="content">
 <img src="figurer/tilleggsbeskrivelse_traseknutepunkt3.png" alt="tilleggsbeskrivelse traseknutepunkt3">
 </div>
-<div class="title">Figur 61. Traseknutepunkt som skal registreres som to master (mastepunkt = grønn ring)</div>
+<div class="title">Figur 63. Traseknutepunkt som skal registreres som to master (mastepunkt = grønn ring)</div>
 </div>
 </div>
 <div class="sect2">
@@ -5158,7 +5187,7 @@ Andre ledningsdetaljer (som for eksempel samleskinner, brytere, avledere osv.) s
 <div class="content">
 <img src="figurer/tilleggsbeskrivelse_trafostasjon.png" alt="tilleggsbeskrivelse trafostasjon">
 </div>
-<div class="title">Figur 62. Avgrensing av trafostasjon skal gjøres ved hjelp av arealbruksobjekt Transformatorstasjon</div>
+<div class="title">Figur 64. Avgrensing av trafostasjon skal gjøres ved hjelp av arealbruksobjekt Transformatorstasjon</div>
 </div>
 </div>
 <div class="sect2">
@@ -5170,13 +5199,13 @@ Andre ledningsdetaljer (som for eksempel samleskinner, brytere, avledere osv.) s
 <div class="content">
 <img src="figurer/tilleggsbeskrivelse_planovergang.png" alt="tilleggsbeskrivelse planovergang">
 </div>
-<div class="title">Figur 63. Illustrasjon av planovergang langs jernbane og vanlige objekttyper. Blå linje viser Vegbom (registrert nedfelt) og rød punkt viser Mast med LEDNINGSNETTVERKSTYPE Signal.</div>
+<div class="title">Figur 65. Illustrasjon av planovergang langs jernbane og vanlige objekttyper. Blå linje viser Vegbom (registrert nedfelt) og rød punkt viser Mast med LEDNINGSNETTVERKSTYPE Signal.</div>
 </div>
 <div class="imageblock">
 <div class="content">
 <img src="figurer/tilleggsbeskrivelse_stasjonsområde.png" alt="tilleggsbeskrivelse stasjonsområde">
 </div>
-<div class="title">Figur 64. Illustrasjon av stasjonsområde langs jernbane og vanlige objekttyper. Blå strek viser Kum med LEDNINGSNETTVERKSTYPE ekom, svart sirkel viser Kumlokk med LEDNINGSNETTVERKSTYPE ekom, svart stiplet strek viser Kabelkanal med LEDNINGSNETTVERKSTYPE ekom, svart strek viser Spormidt, JERNBANETYPE J, svart firkant viser Skap med LEDNINGSNETTVERKSTYPE ukjent, grønn prikk viser Mast med LEDNINGSNETTVERKSTYPE kontaktledning, Oransje prikk viser Mast med LEDNINGSNETTVERKSTYPE signal og grønn strek viser Åk med LEDNINGSNETTVERKSTYPE kontaktledning.</div>
+<div class="title">Figur 66. Illustrasjon av stasjonsområde langs jernbane og vanlige objekttyper. Blå strek viser Kum med LEDNINGSNETTVERKSTYPE ekom, svart sirkel viser Kumlokk med LEDNINGSNETTVERKSTYPE ekom, svart stiplet strek viser Kabelkanal med LEDNINGSNETTVERKSTYPE ekom, svart strek viser Spormidt, JERNBANETYPE J, svart firkant viser Skap med LEDNINGSNETTVERKSTYPE ukjent, grønn prikk viser Mast med LEDNINGSNETTVERKSTYPE kontaktledning, Oransje prikk viser Mast med LEDNINGSNETTVERKSTYPE signal og grønn strek viser Åk med LEDNINGSNETTVERKSTYPE kontaktledning.</div>
 </div>
 </div>
 </div>
@@ -5360,7 +5389,7 @@ av denne lisensen og ikke kan viderebrukes</p>
 </div>
 <div id="footer">
 <div id="footer-text">
-Last updated 2025-12-22 14:33:31 +0100
+Last updated 2026-10-28 14:08:23 +0100
 </div>
 </div>
 </body>

@@ -3096,16 +3096,6 @@ Ogs&#229; halv&#229;k (konstruksjon festet i kun en mast) skal registreres. Mast
  
  
 '''
-.Halvåk sett fra bakken
-image::figurer\halvaak_bakke.png[link=figurer\halvaak_bakke.png, Alt="Halvåk sett fra bakken"]
- 
- 
-'''
-.Halvåk sett fra luften
-image::figurer\halvaak_ovenfra.png[link=figurer\halvaak_ovenfra.png, Alt="Halvåk sett fra luften"]
- 
- 
-'''
 .Eksempel på registrering av Åk. Den enkelte mast registreres i tillegg.
 image::figurer\åk1.png[link=figurer\åk1.png, Alt="Eksempel på registrering av Åk. Den enkelte mast registreres i tillegg."]
  
@@ -3113,8 +3103,17 @@ image::figurer\åk1.png[link=figurer\åk1.png, Alt="Eksempel på registrering av
 '''
 .Illustrasjon av registrering for halvåk. Grønn linje representerer Åk, rød punkt Mast.
 image::figurer\åk2_halvåk.png[link=figurer\åk2_halvåk.png, Alt="Illustrasjon av registrering for halvåk. Grønn linje representerer Åk, rød punkt Mast."]
+
+
+'''
+.Halvåk sett fra bakken
+image::figurer\halvaak_bakke.png[link=figurer\halvaak_bakke.png, Alt="Halvåk sett fra bakken"]
  
  
+'''
+.Halvåk sett fra luften
+image::figurer\halvaak_ovenfra.png[link=figurer\halvaak_ovenfra.png, Alt="Halvåk sett fra luften"]
+
  
 [discrete]
 ==== Føringer
